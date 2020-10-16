@@ -25,7 +25,6 @@ html {
 }
 
 header {
-    height: 100vh;
     background-image: url('../img/bg-header.png');
     background-repeat: no-repeat;
     background-position: top left;
@@ -264,9 +263,6 @@ header {
     .img-one {
         display: none;
     }
-    header {
-        height: 81vh;
-    }
     .mb-t-5 {
         margin-top: 40px !important;
     }
@@ -290,12 +286,6 @@ header {
         border-top-right-radius: 10px;
         border-bottom-right-radius: 10px;
         min-height: 100%;
-    }
-}
-
-@media(min-width:767px)and(max-width:768px) {
-    header {
-        height: 52vh;
     }
 }
 
@@ -821,19 +811,10 @@ img {
             font-size: 8px !important;
         }
     }
-    header {
-        height: 38vh;
-    }
     .fa-apple {
         font-size: 25px !important;
     }
     .fa-google-play {
         font-size: 25px !important;
-    }
-}
-
-@media screen and (min-width: 1400px) {
-    header {
-        height: 65vh;
     }
 }
