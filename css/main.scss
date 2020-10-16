@@ -8,6 +8,11 @@ $shadow:rgba(15, 160, 197, 0.4);
     src: url(../Fonts/ArbFONTS-Ithra-Light.ttf);
 }
 
+body,
+html {
+    overflow-x: hidden !important;
+}
+
 * {
     direction: rtl;
     text-align: right;
@@ -260,7 +265,7 @@ header {
         display: none;
     }
     header {
-        height: 100vh;
+        height: 81vh;
     }
     .mb-t-5 {
         margin-top: 40px !important;
@@ -290,7 +295,7 @@ header {
 
 @media(min-width:767px)and(max-width:768px) {
     header {
-        height: 75vh;
+        height: 52vh;
     }
 }
 
@@ -602,66 +607,6 @@ ul {
     }
 }
 
-@media(min-width:767px)and(max-width:768px) {
-    .fix-ul {
-        margin-left: -70px;
-    }
-    .apps {
-        .col-6 {
-            -ms-flex: 0 0 100%;
-            flex: 0 0 100%;
-            max-width: 100%;
-            margin-top: 5px;
-        }
-    }
-    .navbar .nav-item .active-link:after {
-        width: 6%;
-        right: 1% !important;
-    }
-    .navbar .nav-item .active-link:before {
-        left: 94% !important;
-        z-index: 1;
-    }
-}
-
-@media(min-width:100px)and(max-width:767px) {
-    .fix-ul {
-        margin-left: 0px;
-    }
-    .apps {
-        margin-top: 15px !important;
-    }
-    .pfix-3 {
-        padding-right: 13px !important;
-    }
-    .navbar .nav-item .active-link:after {
-        width: 10%;
-        right: 5% !important;
-    }
-    .navbar .nav-item .active-link:before {
-        left: 87% !important;
-        z-index: 1;
-    }
-}
-
-@media(min-width:769px)and(max-width:1024px) {
-    .fix-ul {
-        margin-left: -70px;
-    }
-    .apps {
-        .play {
-            font-weight: 500 !important;
-            font-size: 12px !important;
-        }
-        .Download {
-            font-size: 8px !important;
-        }
-    }
-    header {
-        height: 45vh;
-    }
-}
-
 .social {
     width: 40px !important;
     height: 40px !important;
@@ -799,4 +744,90 @@ img {
     -webkit-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
+}
+
+.viewMore {
+    color: #fff !important;
+}
+
+.fa-apple {
+    color: #31B4D3 !important;
+    font-size: 30px;
+}
+
+.fa-google-play {
+    color: #31B4D3 !important;
+    font-size: 30px;
+}
+
+@media(min-width:767px)and(max-width:768px) {
+    .fix-ul {
+        margin-left: -70px;
+    }
+    .apps {
+        .col-6 {
+            -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+            max-width: 100%;
+            margin-top: 5px;
+        }
+    }
+    .navbar .nav-item .active-link:after {
+        width: 6%;
+        right: 1% !important;
+    }
+    .navbar .nav-item .active-link:before {
+        left: 94% !important;
+        z-index: 1;
+    }
+}
+
+@media(min-width:100px)and(max-width:767px) {
+    .fix-ul {
+        margin-left: 0px;
+    }
+    .apps {
+        margin-top: 15px !important;
+    }
+    .pfix-3 {
+        padding-right: 13px !important;
+    }
+    .navbar .nav-item .active-link:after {
+        width: 10%;
+        right: 5% !important;
+    }
+    .navbar .nav-item .active-link:before {
+        left: 87% !important;
+        z-index: 1;
+    }
+    .fa-apple {
+        font-size: 25px !important;
+    }
+    .fa-google-play {
+        font-size: 25px !important;
+    }
+}
+
+@media(min-width:769px)and(max-width:1024px) {
+    .fix-ul {
+        margin-left: -70px;
+    }
+    .apps {
+        .play {
+            font-weight: 500 !important;
+            font-size: 12px !important;
+        }
+        .Download {
+            font-size: 8px !important;
+        }
+    }
+    header {
+        height: 38vh;
+    }
+    .fa-apple {
+        font-size: 25px !important;
+    }
+    .fa-google-play {
+        font-size: 25px !important;
+    }
 }
