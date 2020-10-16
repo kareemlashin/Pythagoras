@@ -989,3 +989,9 @@ img {
     font-size: 25px !important;
   }
 }
+
+@media screen and (min-width: 1400px) {
+  header {
+    height: 65vh;
+  }
+}
