@@ -257,6 +257,9 @@ header {
 }
 
 @media(min-width:100px)and(max-width:767px) {
+    .ms-5 {
+        margin-top: 25px !important;
+    }
     .img-one {
         display: none;
     }
