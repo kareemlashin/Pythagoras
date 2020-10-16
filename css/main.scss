@@ -257,17 +257,8 @@ header {
 }
 
 @media(min-width:100px)and(max-width:767px) {
-    .cont-res {
-        margin-top: 246px;
-    }
     .img-one {
         display: none;
-    }
-    .mb-t-5 {
-        margin-top: 40px !important;
-    }
-    .mb-b-5 {
-        margin-bottom: 40px !important;
     }
     .back-custom::after {
         width: 60%;
@@ -407,13 +398,6 @@ header {
     .trans1 {
         width: 60px;
         height: 60px;
-    }
-    .top-sec {
-        margin-top: 80px !important;
-    }
-    .top-third {
-        margin-top: 20px !important;
-        margin-bottom: 50px !important;
     }
     .back-custom-4::after {
         background-color: #D5F0F6;
@@ -635,11 +619,6 @@ img {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 20px;
-}
-
-.top-all {
-    margin-top: 40px !important;
-    margin-bottom: 40px !important;
 }
 
 @keyframes spin {
