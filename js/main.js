@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    $("#splash-screen").fadeOut(1000);
     $(".nav-item .nav-link").click(function() {
         let LinkHref = $(this).attr("href");
         $("html,body").animate({ scrollTop: $(LinkHref).offset().top }, 1000);
